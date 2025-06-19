@@ -68,6 +68,35 @@
       </p>
     </section>
 
+    <section id="form" class="contact-form">
+      <h2>Contact Us</h2>
+      <p>
+        Have questions, feedback, or feature requests? We’d love to hear from
+        you.
+      </p>
+      <form
+        action="mailto:support@summarizer.com"
+        method="POST"
+        enctype="text/plain"
+      >
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="submit-button">Send Message</button>
+      </form>
+    </section>
+
     <footer>
       <p>© 2025 Summarizer. Built for speed & clarity.</p>
     </footer>
