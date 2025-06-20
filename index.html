@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="navbar">
-      <div class="logo">Summarizer</div>
+      <div class="logo"><a href="#">Summarizer</a></div>
       <nav>
         <a href="#features">Features</a>
         <a href="#pricing">Pricing</a>
@@ -20,7 +20,7 @@
       <h1>Summarize the Web, Smarter.</h1>
       <p>
         Boost your productivity with AI-powered summaries for articles, blogs,
-        PDFs & more – right in your browser.
+         more – right in your browser.
       </p>
       <a href="#pricing" class="cta-button">Get Started</a>
     </section>
@@ -30,7 +30,7 @@
       <ul>
         <li>⚡ AI Summarization in seconds</li>
         <li>🧠 Understand long articles instantly</li>
-        <li>🌐 Works with any site, PDF or blog</li>
+        <li>🌐 Works with any site or blog</li>
         <li>💳 Pay-as-you-go with credit packs</li>
       </ul>
     </section>
@@ -62,46 +62,28 @@
 
     <section id="contact" class="contact">
       <h2>Need Support?</h2>
-      <p>
+      <!-- <p>
         Reach us at
         <a href="mailto:support@summarizer.com">support@summarizer.com</a>
-      </p>
+      </p> -->
     </section>
 
-    <section id="form" class="contact-form">
-      <h2>Contact Us</h2>
-      <p>
-        Have questions, feedback, or feature requests? We’d love to hear from
-        you.
-      </p>
-      <form
-        action="mailto:support@summarizer.com"
-        method="POST"
-        enctype="text/plain"
-      >
-        <div class="form-group">
-          <input type="text" name="name" placeholder="Your Name" required />
-        </div>
-        <div class="form-group">
-          <input type="email" name="email" placeholder="Your Email" required />
-        </div>
-        <div class="form-group">
-          <textarea
-            name="message"
-            rows="5"
-            placeholder="Your Message"
-            required
-          ></textarea>
-        </div>
-        <button type="submit" class="submit-button">Send Message</button>
+    <section class="form-section">
+      <form id="supportForm">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
       </form>
+      <p id="statusMessage" style="display: none"></p>
     </section>
 
     <footer>
       <p>© 2025 Summarizer. Built for speed & clarity.</p>
       <a href="terms.html">Terms & Conditions</a>
       <a href="shipping.html">Cancellation and Shipping Policy</a>
-
     </footer>
+    <script src="email.min.js"></script>
+    <script src="contact.js"></script>
   </body>
 </html>

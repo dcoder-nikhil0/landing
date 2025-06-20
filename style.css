@@ -169,12 +169,42 @@ nav a:hover {
 .contact {
   padding: 4rem 2rem;
   text-align: center;
-  background: #181818;
+  /* background: #181818; */
 }
 
 .contact h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
+}
+
+.supportForm {
+  padding: 2rem;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #1e1e1e;
+  border: 1px solid #444;
+  color: #f1f1f1;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 12px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+form button:hover {
+  background-color: #a29bfe;
 }
 
 /* Footer */
