@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const plan = plans[planId];
 
     const options = {
-      key: "rzp_test_Y8a6fqfSTWXTuO", // Replace with your Razorpay test/live key
+      key: "rzp_live_JP2UCYCf5hgET0", // Replace with your Razorpay test/live key
       amount: plan.amount,
       currency: "INR",
       name: "Smart Summarizer",
