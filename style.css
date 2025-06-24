@@ -209,12 +209,28 @@ form button:hover {
 
 /* Footer */
 footer {
-  background: #1a1a1a;
+  background-color: #111; /* Dark background */
+  color: #ccc; /* Soft text color */
   text-align: center;
-  padding: 1.5rem 2rem;
+  padding: 20px;
+  font-size: 14px;
   border-top: 1px solid #333;
-  font-size: 0.9rem;
-  color: #aaa;
+}
+
+footer p {
+  margin: 0 0 10px;
+  font-weight: 300;
+}
+
+footer a {
+  margin: 0 10px;
+  color: #00bfff; /* Bright blue links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #1e90ff; /* Slightly lighter on hover */
 }
 
 /* Responsive */
